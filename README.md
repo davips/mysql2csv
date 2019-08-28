@@ -1,3 +1,6 @@
+Read-only repository, future improvements will be at [personal repo](https://github.com/davips/mysql2csv)!
+===========
+
 # mysql2csv
 This code extracts results from a mysql database:
 
