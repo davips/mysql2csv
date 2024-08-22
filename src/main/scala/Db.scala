@@ -3,7 +3,7 @@ import java.sql.{Connection, DriverManager}
 case class Db(database: String) {
   val connection: Connection = try {
     val mysqlHost = "127.0.0.1"
-    val mysqlPort = "3306"
+    val mysqlPort = "33060"
     val mysqlPass = "1"
     val url = s"jdbc:mysql://$mysqlHost:$mysqlPort/" + database
     val connection = DriverManager.getConnection(url, "davi", mysqlPass)
